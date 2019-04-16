@@ -210,25 +210,6 @@ void loadImg() {
   neck = loadShape("neck.svg");
   bodyDown = loadShape("bodyDown.svg");
 }
-/*
-void loadImg() {
-  foot1 = loadImage("foot1.png");
-  foot2 = loadImage("foot2.png");
-  shank1 = loadImage("shank1.png");
-  shank2 = loadImage("shank2.png");
-  thigh1 = loadImage("thigh1.png");
-  thigh2 = loadImage("thigh2.png");
-  forearm1 = loadImage("forearm1.png");
-  forearm2 = loadImage("forearm2.png");
-  bigarm1 = loadImage("bigarm1.png");
-  bigarm2 = loadImage("bigarm2.png");
-  hand1 = loadImage("hand1.png");
-  hand2 = loadImage("hand2.png");
-  bodyUpper = loadImage("bodyUpper.png");
-  head = loadImage("head.png");
-  neck = loadImage("neck.png");
-  bodyDown = loadImage("bodyDown.png");
-}*/
 
 void updateVectorsFromSkeleton() {
   headR = new PVector ( joints[KinectPV2.JointType_Head].getX(), joints[KinectPV2.JointType_Head].getY() );
